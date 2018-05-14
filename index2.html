@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+</head>
+<style>
+    body{background-color:rgba(245, 222, 179, 0.795)}
+</style>
+<body>
+    <div>
+    <div id="box" class="div1" style="background-color:white;width:50%;height:50%">
+<h1><table>基于用HTML5的标签语义化实践</table></h1>
+<h3><table>标签语义化由html5引入或提出</table></h3>
+<h5><table>文章作者：html.  发表时间：2018</table></h5>
+<h4>    那么感谢这一次的，让我又一次的接触到标签语义化这个玩意儿，其实呢，在咱们HTML5中，确实是引入了<br>
+        非常多的划时代的技术，像work，webDB这一类偏向web工程实践这一方面的，也有我们今天所说的标签<br>
+        语义化，web accessibility<br>
+        以及诸如显示与予以分离。标签语义化不仅提高了可访问性与互操作性，同时是对代码更好哦的维护
+        与好基友<br>CSS的关系更加和谐，本地task，参考了网上的一些资源以及w3c的一些文档，对我们的语义化进行一些简要<br>
+      的介绍，如有不足，还行指教！！！
+</h4>
+<img src="./img/1.jpg"width="300"height="200"/>
+<h4>
+        OK,言归正传，在语义化标签出现，我们比较流行的是div+css的页面布局，从而，得出: : :语义化标签是来<br>
+        取代部分div的，对，div这个小鬼可是毫无语义的。在heml的语义化标签中，比较突出，用得比较多，我们比<br>
+        较熟悉的:&lt;nav&gt;和&lt;article&gt;&lt;section&gt;&lt;aside&gt;&lt;footer&gt;其实这些大话应该都比较熟悉。对于section和<br>
+        article的区别，其实可以浅显的用一句话总结:如果你的页面中需要一个单独的模块来实现一个单独的功能，<br>
+        也就是高聚合的情况，就用article，其他的时候都用section。
+</h4>
+</div>
+<div style="background-color:white;width:50%;height:50%">
+    <h1>HTML5中不常用的语义化属性</h1>
+<h3>存在即合理</h3>
+<h5>文章作者.文章发表时间</h5>
+<h4>对存在即合理，就是说下面三个：&lt;address&gt;是用来定义与HTML页面或页面一部分有关的作者，相关人<br>
+        员或组织的联系信息，通常位于页面底部或相关部份内，&figure这个元素是用来引入图表，图形，照片等<br>
+        对应的场景就是像杂志中的图片一样，在HTML5之前是没有一个专门的标签来做这个事情的，之前如果实现这<br>
+        个功能就是没有语义的&lt;div&gt;标签;&lt;time&gt;可以通过这个标签标记一个具体的时间或日期，应用场景通常就<br>
+        是一篇文章发表的时间。
+</h4>
+    <img src="./img/1.jpg"width="300"height="200"/>
+    <h4>百度链接---<a style="color:blue;" href="http://www.baidu.com">点击进入百度</a> </h4>
+    <h4>注意：&lt;address&gt;标签中不能有&lt;h1&gt;-&lt;h6&gt;,
+        &lt;artical&gt;,&lt;adress&gt;,&lt;oside&gt;,&lt;tooter&gt;<br>
+        &lt;header&gt;,&lt;hgroup&gt;,&lt;section&gt;等标签
+    </h4>
+</div>
+
+
+
+<div style="background-color:white;width:660px;height:600px;margin:5px">
+    <h1>图片</h1>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div><br>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div><br>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div>
+<div style="width:150px; height:150px;margin:5px;float:left;border:solid 1px #CCCCCC;">
+    <div align="center">
+    <br>好看的图片<br>
+    <img src="./img/1.jpg" width="140" height"90" text-align="center" >
+    </div>
+</div><br>
+
+</div>
+
+
+
+
+
+
+
+
+<div style="background-color:white;width:50%;height:50%">
+    <h1>最后一篇文章</h1>
+<h3>建议与补充</h3>
+<h5>文章作者.文章发表时间</h5>
+<b>
+    <font style="background-color:yellow">WAL-ARIA(Web Accessibility initiOtive's Accessible Rich intemet Applications</font>
+<font>无障碍页面倡议之可访问的<br>
+    互联网应用，简称ARIA，建议使用地标角色填补语义的空白</font><br>
+</b>
+<img src="./img/1.jpg"width="300"height="200"/>
+<table border="1" width="650" cellspacing="0" cellpadding="0">
+<tr>
+    <th>地标角色</th>
+    <th>值</th>
+    <th>解释</th>
+</tr>
+<tr>
+    <th>role(0-0)</th>
+    <th>banner</th>
+    <th>横幅</th>
+</tr>
+<tr>
+    <th>role(0-0)</th>
+    <th>navigation</th>
+    <th>导航</th>
+</tr>
+<tr>
+    <th>role(0-0)</th>
+    <th>main</th>
+    <th>主体</th>
+</tr>
+<tr>
+    <th>role(0-0)</th>
+    <th>complementary</th>
+    <th>补充性内容</th>
+</tr>
+<tr>
+    <th>role(0-0)</th>
+    <th>contentinfo</th>
+    <th>内容信息</th>
+</tr>
+<tr>
+    <th style="background-color:grey;text-align:center"colspan="3">用感性思维学习，用理性思维思考与反思</th>
+</tr>
+</table>
+</div>
+<div id="float"class="div2" style="background-color:white;width:50%;height:100%">
+            <center>              <h1>这是一个栅栏，这是栅栏标题</h1> 
+             <h4>请输入邮箱地址:<input type="text" placeholder="这是一个文本输入框"> </h4>
+                <h4>邮箱地址请按要求格式输入</h4>
+                <h4>请输入密码：<input type="text"placeholder="这是一个文本输入框"></h4>
+                <h4>请再次输入密码:<input type="text"placeholder="这是一个文本输入框"></h4>
+                <h4>密码请为6-16位英文数字</h4>
+                <h4>性别<input type="radio" name="sex">男<input type="radio"name="sex">女</h4>
+                <h4>爱好<input type="checkbox">运动<input type="checkbox">艺术</h4>
+                <h4>个人描述：<textarea style="vertical-align:top;" rows="10"cols="30"placeholder="请输入文本内容"></textarea></h4>
+               
+
+                <input type="submit"value="提交" style="background-color:blue;width:500px">
+            </center>
+</div>
+        
+
+   </div> 
+</body>
+</html>
